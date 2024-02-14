@@ -33,7 +33,9 @@ Build the images and run the containers using the following command:
 $ docker-compose up -d --build
 ```
 
-Now you should be able to upload an image at http://localhost:1335/upload, and view the image at http://localhost:1335/media/IMAGE_FILE_NAME.
+Now you should be able to upload an image at http://localhost:1335/upload, and view the image at http://localhost:1335/media/IMAGE_FILE_NAME. 
+
+Note that in order to view the webpage from your laptop, you may have to enable local port forwarding.
 
 ### Production
 
