@@ -44,7 +44,7 @@ Recall that deployment of this service in a production environment uses gunicorn
 ```
 POSTGRES_USER=YOUR_USERNAME
 POSTGRES_PASSWORD=YOUR_PASSWORD
-POSTGRES_DB=POSTGRESQL_DATABASE_NAME
+POSTGRES_DB=YOUR_POSTGRESQL_DATABASE_NAME
 ```
 
 After bringing the old containers down, re-build the images and run the containers. Also initialize the Postgres database, as follows:
