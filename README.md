@@ -56,6 +56,8 @@ $ docker-compose -f docker-compose.prod.yml up -d --build
 $ docker-compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
 
-Now you can upload images at http://localhost:1335/upload, and view them at http://localhost:1335/media/IMAGE_FILE_NAME. Note that if you apply changes, the image must be re-built.
+Now you can upload images at http://localhost:1335/upload, and view them at http://localhost:1335/media/IMAGE_FILE_NAME. 
+
+Note that if you apply any changes, the image must be re-built.
 
 Enjoy!
