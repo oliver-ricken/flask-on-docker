@@ -8,7 +8,7 @@ This project is based on this [tutorial](https://testdriven.io/blog/dockerizing-
 
 ### Demo
 
-The following gif is a short demo of uploading an image at http://localhost:1335/upload, and viewing that image at http://localhost:1335/media/IMAGE_FILE_NAME.
+The following gif is a short demo of the production-ready Flask application in action:
 
 <img src=demo.gif width=75% />
 
